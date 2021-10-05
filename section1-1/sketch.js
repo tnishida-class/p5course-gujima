@@ -3,13 +3,15 @@ function setup() {
 }
 
 function draw() {
-  background(0);
-  strokeWeight(4);
+  background(255);
+  strokeWeight(0);
   fill(178, 100, 162);
   triangle(12,120,116,120,116,10);
-  fill(94, 185, 84);
   triangle(0,108,106,108,106,0);
+  triangle(12,112,110,112,110,0);
   fill(255);
+  triangle(17,108,108,108,108,7);
+  fill(255, 200, 255);
   textSize(32);
   textFont("serif");
   text("46", 68, 100);
