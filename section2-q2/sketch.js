@@ -14,7 +14,7 @@ function setup() {
       fill((i+j) % 2 == 0 ? 255 : 110);
       //fill(i % 2 == 0 ? 255 : 110); // ここを変えます
       console.log(i, j);
-    rect(i*20,j*20,20,20);  // BLANK[1] (hint: rectのx座標は size * i, y座標はsize * j)
+    rect(size*i,size*j,size,size);  // BLANK[1] (hint: rectのx座標は size * i, y座標はsize * j)
   if(j<3){
     fill(255,0,0);
   }
@@ -25,7 +25,7 @@ else{
   fill(0);
 }
   if((i+j) % 2 == 1){
-      ellipse(i*20+10,j*20+10,18);
+      ellipse(size*i+12,size*j+12,size-2);
     }
   }
   }
