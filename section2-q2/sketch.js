@@ -18,7 +18,7 @@ function setup() {
   if(j<3){
     fill(255,0,0);
   }
- else if(j>5){
+ else if(j>4){
    fill(0);
  }
   if((i+j) % 2 == 1){
