@@ -18,14 +18,11 @@ function setup() {
   if(j<3){
     fill(255,0,0);
   }
- else if(j<5){
-   fill(110);
+ else if(j>5){
+   fill(0);
  }
-else{
-  fill(0);
-}
   if((i+j) % 2 == 1){
-      ellipse(size*i+12,size*j+12,size-2);
+      ellipse(size*i+size/2,size*j+size/2,size*0.85);
     }
   }
   }
