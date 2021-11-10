@@ -63,8 +63,8 @@ average = sum / scores.length;
     text(scores[i].toPrecision(3), i * dx, height - h);
   }
   // BLANK[5] 平均点の線を引きます
-  stroke(150,250,50);
-  rect(0,height- height*average / 100, width, 1);
-  text(average.toPrecision(3), 0,height- height*average / 100);
+  stroke(0,255,0);
+  line(0,height*(100 - average) / 100, width, height*(100 - average) / 100);
+  text(average.toPrecision(3), 0,height*(100 - average) / 100);
 
 }
