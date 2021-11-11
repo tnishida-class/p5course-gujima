@@ -4,7 +4,7 @@
 function setup(){
   createCanvas(400, 400);
   background(255);
-  balloon("I love keyakizaka46",50);
+  balloon("I love Keyakizaka46",200);
 }
 
 function balloon(t,n){
@@ -19,8 +19,8 @@ function balloon(t,n){
   fill(0,100,120);
   noStroke();
   beginShape();
-  vertex(w*7/6 + p , h/1.5 + p);
-  vertex((w*7/6 + p)*7/8, (h/1.5 + p) + h/3);
-  vertex(w*7/6 + p, h/1.5 + p + h+1.5);
+  vertex(w/2 +p + w*5/8 , h/1.5 + p + h*3/8);
+  vertex((w*7/6 + p)*7/8, (h/1.5 + p) + h/2);
+  vertex(w/2 + p + w*5/8, h/1.5 + p + h);
   endShape();
 }
